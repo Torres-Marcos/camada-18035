@@ -1,0 +1,55 @@
+h2 {
+  color: red;
+  text-align: center;
+}
+
+.h1_titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+p {
+  font-family: 'David Libre', serif;
+  font-size: 1.1rem;
+}
+
+.img_ancho {
+  width: 85%;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #fcfafb;
+}
+
+.pad {
+  padding: 2% 2% 2% 2%;
+}
+
+.imgCarB {
+  height: 250px;
+}
+
+.ancho {
+  background-color: #0e0d0d;
+  width: 100%;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.botonPosicion {
+  padding-bottom: 1%;
+}
+
+.bg-black {
+  background-color: #0e0d0d;
+}
+
+.pieBoot {
+  background-color: #0e0d0d;
+  color: #fcfafb;
+}
+/*# sourceMappingURL=estilos.css.map */
