@@ -1,55 +1,150 @@
-h2 {
-  color: red;
+/*Menu*/
+.ancho {
+  background-color: #0e0d0d;
+  width: 100%;
+  height: auto;
+}
+
+#barraMenu {
+  font-family: 'David Libre', serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#barraMenu:hover {
+  font-family: 'David Libre', serif;
+  font-size: 1.09rem;
+  font-weight: 500;
+  color: #ee0f0f;
+}
+
+.jnMenu {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  font-family: 'David Libre', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.jnMenu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.jnMenu a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Carrusel de Imagenes*/
+#next_derecha {
+  background-image: url(../img/iconos/flecha_der.png);
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 22px;
+}
+
+#next_izquierda {
+  background-image: url(../img/iconos/flecha_izq.png);
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 22px;
+}
+
+#h2 {
+  font-family: 'David Libre', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #f80000;
   text-align: center;
+}
+
+.tranScala:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.parrafo {
+  line-height: 1.4;
+  font-family: 'David Libre', serif;
+  font-size: 1.1rem;
+  max-width: 240px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .h1_titulo {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
-}
-
-p {
   font-family: 'David Libre', serif;
   font-size: 1.1rem;
-}
-
-.img_ancho {
-  width: 85%;
-  text-align: center;
+  line-height: 1.4;
 }
 
 .link {
   text-decoration: none;
   color: #fcfafb;
+  font-family: 'David Libre', serif;
+  font-size: 1.2rem;
 }
 
-.pad {
-  padding: 2% 2% 2% 2%;
-}
-
-.imgCarB {
-  height: 250px;
-}
-
-.ancho {
-  background-color: #0e0d0d;
-  width: 100%;
+.link:hover {
+  text-decoration: none;
+  color: #fcfafb;
+  font-size: 1.3rem;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .centrar {
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
-.botonPosicion {
-  padding-bottom: 1%;
+/* PIE DE PAGINA*/
+.pieRojo {
+  background-color: red;
+  height: 6px;
 }
 
-.bg-black {
-  background-color: #0e0d0d;
-}
-
-.pieBoot {
+.pieNegro {
   background-color: #0e0d0d;
   color: #fcfafb;
+}
+
+.pieJN {
+  text-decoration: none;
+  color: white;
+  font-family: 'David Libre', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.pieJN:hover {
+  color: white;
+}
+
+.textoChico {
+  font-family: 'David Libre', serif;
+  font-size: 0.9rem;
+}
+
+.textoBold1 {
+  font-family: 'David Libre', serif;
+  font-weight: 700;
+}
+
+.menuPie {
+  text-decoration: none;
+  font-family: 'David Libre', serif;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: red;
+}
+
+.menuPie:hover {
+  color: white;
 }
 /*# sourceMappingURL=estilos.css.map */
